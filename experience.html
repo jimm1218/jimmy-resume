@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>靳鈞評 - 專業經歷</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Dynamic Tech Particles Background -->
+    <canvas id="tech-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Jimmy Chin</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">首頁</a>
+                <a href="experience.html" class="nav-link active">專業經歷</a>
+                <a href="portfolio.html" class="nav-link">專案作品集</a>
+                <a href="contact.html" class="nav-link">聯絡我</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-container">
+        <div class="resume-header reveal">
+            <h1>專業經歷</h1>
+            <p>我的數據分析與資料工程相關工作經驗</p>
+        </div>
+        
+        <div class="resume-container">
+            
+            <!-- Job 1 -->
+            <div class="job reveal">
+                <div class="job-header">
+                    <div class="company"><img src="images/fila.svg" class="brand-logo" alt="FILA"> Fila 斐樂股份有限公司</div>
+                    <div class="date"><i class="fa-regular fa-calendar-days"></i> 2024/05 ~ 2026/04</div>
+                </div>
+                
+                <div class="project"><i class="fa-solid fa-chart-line"></i> 會員數據分析</div>
+                <span class="role"><i class="fa-solid fa-magnifying-glass-chart"></i> 數據報告與分析</span>
+                <span class="role"><i class="fa-solid fa-chart-pie"></i> 報表與簡報製作</span>
+                
+                <div class="desc">
+                    負責集團內會員資料概況分析與報告製作，整合來自 SQL 資料庫的會員、交易及行為資料，並利用 POWER BI 進行數據視覺化與分析。透過數據篩選、分群、聚合與指標計算，深入了解會員活躍度、消費行為、忠誠度及偏好品牌，提供管理層與行銷團隊可操作的洞察報告。
+                </div>
+                
+                <div class="tech-title"><i class="fa-solid fa-circle-check"></i> 核心技術：</div>
+                <ul class="tech-list">
+                    <li>POWER BI 數據視覺化：設計互動式儀表板與報表</li>
+                    <li>數據分析：會員分群、指標計算、聚合統計、異常值檢測</li>
+                    <li>SQL 資料操作：撈取與清理資料，使用聚合函數、JOIN、子查詢</li>
+                    <li>報表自動化：轉化分析結果為高可讀性報表</li>
+                </ul>
+                
+                <div class="tools">
+                    <span class="tool"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="tool"><i class="fa-solid fa-database"></i> SQL Server</span>
+                    <span class="tool"><i class="fa-regular fa-file-excel"></i> Excel</span>
+                </div>
+            </div>
+            
+            <!-- Job 2 -->
+            <div class="job reveal">
+                <div class="job-header">
+                    <div class="company"><img src="images/fila.svg" class="brand-logo" alt="FILA"> Fila 斐樂股份有限公司</div>
+                    <div class="date"><i class="fa-regular fa-calendar-days"></i> 2024/05 ~ 2026/04</div>
+                </div>
+                
+                <div class="project"><i class="fa-solid fa-share-nodes"></i> CDP 資料導入 POWER BI</div>
+                <span class="role"><i class="fa-solid fa-file-import"></i> 資料導入</span>
+                <span class="role"><i class="fa-solid fa-wand-magic-sparkles"></i> 清理與轉換</span>
+                <span class="role"><i class="fa-solid fa-headset"></i> 報表分析支援</span>
+                
+                <div class="desc">
+                    負責將 CDP 後台資料上傳至 BIG QUERY，並導入 POWER BI 進行後續分析與報表製作。使用 Power Query (M 語言) 對資料進行清理、轉置、格式化與欄位計算，確保資料正確性與一致性。透過 DAX 設計計算欄位、聚合指標與 KPI。
+                </div>
+                
+                <div class="tech-title"><i class="fa-solid fa-circle-check"></i> 核心技術：</div>
+                <ul class="tech-list">
+                    <li>Power Query M：資料清理、轉置、格式化、欄位計算與資料合併</li>
+                    <li>Power BI DAX：設計計算欄位、KPI 指標、聚合統計與互動報表</li>
+                    <li>資料流程管理：CDP 資料上傳至 BIG QUERY 後自動化導入 POWER BI</li>
+                </ul>
+                
+                <div class="tools">
+                    <span class="tool"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="tool"><i class="fa-solid fa-cloud"></i> BigQuery</span>
+                    <span class="tool"><i class="fa-solid fa-gears"></i> Power Query</span>
+                    <span class="tool"><i class="fa-solid fa-calculator"></i> DAX</span>
+                </div>
+            </div>
+            
+            <!-- Job 3 -->
+            <div class="job reveal">
+                <div class="job-header">
+                    <div class="company"><img src="images/upway.png" class="brand-logo" alt="Upway"> 向上國際科技股份有限公司</div>
+                    <div class="date"><i class="fa-regular fa-calendar-days"></i> 2023/07 ~ 2024/05</div>
+                </div>
+                
+                <div class="project"><i class="fa-solid fa-gamepad"></i> 遊戲數據報表自動化</div>
+                <span class="role"><i class="fa-solid fa-filter"></i> 資料撈取</span>
+                <span class="role"><i class="fa-solid fa-clock-rotate-left"></i> 報表自動化設計</span>
+                <span class="role"><i class="fa-solid fa-table-columns"></i> 儀表板製作</span>
+                
+                <div class="desc">
+                    負責設計與開發 SQL 自動化程序，定時從資料庫撈取會員、交易及行為資料，透過排程程序生成報表並自動寄送。報表包含 KPI 指標、會員活躍度、消費行為分析與趨勢圖，同時運用 Power BI 與 Tableau 將資料視覺化。
+                </div>
+                
+                <div class="tech-title"><i class="fa-solid fa-circle-check"></i> 核心技術：</div>
+                <ul class="tech-list">
+                    <li>SQL 程序撰寫：撈取多表資料、聚合、計算指標</li>
+                    <li>資料自動化：建立定時排程生成報表</li>
+                    <li>自動郵件寄送：程式化發送報表給指定收件人</li>
+                    <li>BI 工具：Power BI 與 Tableau 互動式儀表板</li>
+                </ul>
+                
+                <div class="tools">
+                    <span class="tool"><i class="fa-solid fa-database"></i> SQL Server</span>
+                    <span class="tool"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                    <span class="tool"><i class="fa-solid fa-chart-area"></i> Tableau</span>
+                    <span class="tool"><i class="fa-solid fa-circle-play"></i> 自動化排程</span>
+                </div>
+            </div>
+            
+            <!-- Job 4 -->
+            <div class="job reveal">
+                <div class="job-header">
+                    <div class="company"><img src="images/wowprime.svg" class="brand-logo" alt="Wowprime"> 王品餐飲股份有限公司</div>
+                    <div class="date"><i class="fa-regular fa-calendar-days"></i> 2020/10 ~ 2023/07</div>
+                </div>
+                
+                <div class="project"><i class="fa-solid fa-route"></i> CDP 旅程模組撰寫</div>
+                <span class="role"><i class="fa-solid fa-code-branch"></i> 資料撈取與邏輯撰寫</span>
+                <span class="role"><i class="fa-solid fa-users-gear"></i> 會員旅程條件設計</span>
+                <span class="role"><i class="fa-solid fa-people-group"></i> 跨團隊協作</span>
+                
+                <div class="desc">
+                    負責 CDP (Customer Data Platform) 中的旅程模組開發，運用 SQL 進行資料篩選與邏輯判斷，撰寫可供行銷單位使用的自動化名單產出流程。透過 SQL Pipeline 自動產生推送名單，協助行銷建立 EDM、簡訊或 APP 推播旅程。
+                </div>
+                
+                <div class="tech-title"><i class="fa-solid fa-circle-check"></i> 核心技術：</div>
+                <ul class="tech-list">
+                    <li>MS SQL / T-SQL：CTE、ROW_NUMBER、RANK 等函數</li>
+                    <li>子查詢 / 巢狀查詢：複雜資料篩選與計算</li>
+                    <li>資料清洗：格式轉換、缺值處理、資料一致性</li>
+                    <li>Pipeline SQL：模組化處理、過濾、彙整、輸出名單</li>
+                    <li>商業規則轉換：次數、金額、日期、門市、品類篩選邏輯</li>
+                </ul>
+                
+                <div class="tools">
+                    <span class="tool"><i class="fa-solid fa-database"></i> MS SQL Server</span>
+                    <span class="tool"><i class="fa-solid fa-terminal"></i> T-SQL</span>
+                    <span class="tool"><i class="fa-solid fa-users-viewfinder"></i> CDP Platform</span>
+                    <span class="tool"><i class="fa-solid fa-sliders"></i> SSMS</span>
+                    <span class="tool"><i class="fa-regular fa-file-excel"></i> Excel</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jimmy Chin. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>靳鈞評 Jimmy - 聯絡我</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Dynamic Tech Particles Background -->
+    <canvas id="tech-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Jimmy Chin</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">首頁</a>
+                <a href="experience.html" class="nav-link">專業經歷</a>
+                <a href="portfolio.html" class="nav-link">專案作品集</a>
+                <a href="contact.html" class="nav-link active">聯絡我</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-container">
+        <div class="resume-header reveal">
+            <h1>聯絡我</h1>
+            <p>歡迎與我聯繫，探討數據分析與自動化專案合作機會</p>
+        </div>
+        
+        <div class="contact-wrapper reveal">
+            <div class="contact-info">
+                <h2>聯絡資訊</h2>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value"><a href="mailto:jimmy.chin@example.com">jimmy.chin@example.com</a></span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+886 912-345-678</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value"><a href="https://linkedin.com/in/jimmychin" target="_blank" rel="noopener noreferrer">linkedin.com/in/jimmychin</a></span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="contact-details">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value"><a href="https://github.com/jimmychin" target="_blank" rel="noopener noreferrer">github.com/jimmychin</a></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h2>發送訊息</h2>
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('訊息已模擬送出！(此為前端靜態展示範例)');">
+                    <div class="form-group">
+                        <label for="name"><i class="fa-solid fa-user-tag"></i> 您的姓名</label>
+                        <input type="text" id="name" name="name" placeholder="輸入您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa-solid fa-envelope-open"></i> 電子郵件</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fa-solid fa-pen-nib"></i> 訊息內容</label>
+                        <textarea id="message" name="message" rows="4" placeholder="請輸入您想留言的訊息內容..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> 送出訊息</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jimmy Chin. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
