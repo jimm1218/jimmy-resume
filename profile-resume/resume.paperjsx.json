@@ -1,0 +1,58 @@
+{
+  "title": "靳鈞評 Jimmy Chin - 數據分析與 AI 應用履歷",
+  "subtitle": "Data Analyst / BI Analyst / AI Application Data Analyst",
+  "author": "靳鈞評 Jimmy Chin",
+  "date": "2026-07-28",
+  "include_toc": false,
+  "theme": "modern",
+  "page_size": "a4",
+  "orientation": "portrait",
+  "header_text": "靳鈞評 Jimmy Chin",
+  "footer_text": "GitHub: https://github.com/jimm1218 | Email: jimm1218@gmail.com",
+  "include_page_numbers": true,
+  "sections": [
+    {
+      "heading": "聯絡資訊",
+      "level": 1,
+      "content": "台中市西屯區 | 0919-201-375 | jimm1218@gmail.com | GitHub: https://github.com/jimm1218"
+    },
+    {
+      "heading": "專業摘要",
+      "level": 1,
+      "content": "具 8 年以上數據分析、市場研究、CRM / CDP、SQL 資料處理與 Power BI 儀表板建置經驗。曾任職於 FILA、王品集團、東森購物、向上國際科技等企業，熟悉會員資料分析、行銷成效評估、營運績效監控、資料清理、資料庫查詢、跨部門需求訪談與決策報告產出。\n\n近期透過職訓局 AI 課程與自主專案，將既有商業分析能力延伸至 Python、FastAPI、Supabase、Machine Learning、LLM API、資料視覺化、Docker、GCP VM 與 GitHub Actions 自動部署，能協助團隊把資料從報表推進到可互動、可部署、可持續維運的 AI / BI 應用。"
+    },
+    {
+      "heading": "核心能力",
+      "level": 1,
+      "content": "",
+      "bullets": [
+        "商業數據分析：CRM、會員分群、RFM、回購率、留存率、流失預警、營運績效、行銷活動分析",
+        "BI 與資料視覺化：Power BI、DAX、Power Query、Google Data Studio、Chart.js、Plotly、Streamlit",
+        "資料處理與資料庫：MS SQL、T-SQL、Presto SQL、SQL Server、Supabase、BigQuery、Access、資料清理與 ETL",
+        "AI / ML 應用：Python、Scikit-learn、機器學習模型評估、特徵工程、Gemini API、Hugging Face API、RAG 回覆輔助",
+        "Web / 雲端部署：FastAPI、Flask、JavaScript、HTML/CSS、Docker、GCP VM、Vercel、Render、GitHub Actions",
+        "溝通與管理：跨部門需求轉譯、專案時程控管、SOP 建立、簡報製作、教育訓練、策略建議"
+      ]
+    },
+    {
+      "heading": "工作經歷",
+      "level": 1,
+      "content": "FILA 斐樂股份有限公司 | 數據分析師 / 資料分析師 | 2024/04 - 2026/04\n整合 SQL Server 會員交易與行為資料，透過 Power BI 建置互動式管理儀表板；主導 CDP 資料上傳至 BigQuery 的流程監控，運用 Power Query M 語言進行資料清理、轉置與合併；針對 RFM、回購率、會員健康度、留存率與流失預警設計 DAX 計算邏輯；建置會員健康度儀表板，減少人工彙整時間 80% 以上。\n\n向上國際科技股份有限公司 | 專案管理師 | 2023/07 - 2024/04\n針對線上遊戲交易紀錄撰寫 Stored Procedures 與排程腳本，每日掃描異常轉帳與非法套利行為；設計自動化資料抓取與郵件發送 pipeline；跨部門協調開發、營運與風險管理單位，制定風險稽核 SOP。\n\n王品餐飲股份有限公司 | 數位組主任 | 2020/10 - 2023/07\n參與 CDP 平台導入與建置，負責需求梳理、資料表對接、SQL 邏輯封裝與上線支援；使用 Presto SQL 與 T-SQL 進行大規模會員資料撈取，運用 CTE 與 Window Functions 處理複雜篩選條件；建置會員標籤模組與 pipeline SQL 邏輯。\n\n東森得易購股份有限公司 | 經營分析專員 | 2018/10 - 2020/10\n使用 VBA 開發 Excel 自動化插件，一鍵串接資料庫產出週報與月報；負責電視、外廣、網路與自營商品等通路績效監控，分析行銷效益並提供策略建議。\n\n循證民調 | 資深研究員 | 2016/11 - 2018/10\n獨立執行 30 件以上市場調查與民意分析專案，涵蓋問卷設計、樣本抽樣、資料分析、報告撰寫與提案。\n\n中央大學太空遙測中心 / 逢甲大學 | 研究與專案助理 | 2013/09 - 2016/09\n參與坡地崩塌、水災風險評估、都市環境災害風險研究與空間資訊相關計畫，負責資料庫建置、圖資繪製、脆弱度分析、報告撰寫與簡報製作。"
+    },
+    {
+      "heading": "AI 課程與 GitHub 作品",
+      "level": 1,
+      "content": "AI 輿情監測與回覆儀表板 Repuguard | Private Repo: jimm1218/group-project | Demo: https://repuguard.ai-future2026.com/\n建立 AI 輿情監測與品牌回覆平台，整合 FastAPI 後端、前端 Dashboard、Supabase 資料來源與 ML 風險判斷模型；支援營運總覽、危機處理、趨勢分析、AI 一鍵回覆與回覆寫回；導入 Gemini、Hugging Face、lazy loading、PWA、Docker、GCP VM、Nginx HTTPS 與 GitHub Actions 自動部署。\n\n商品即時比價與多功能儀表板 | Repo: https://github.com/jimm1218/Price_inquiry | Demo: https://price-inquiry.onrender.com/\n建立跨平台商品比價系統，整合 PChome、Yahoo 購物、Amazon JP、Shopee、駿河屋等來源；使用 Python 爬蟲、Thread Pool 與 Playwright 自動化抓取價格、銷量、圖片與商品資訊；前端提供即時搜尋、平台篩選、排序、分頁、日幣匯率換算與統計卡片。\n\nTaiwan Windy 即時氣象動態觀測地圖 | Repo: https://github.com/jimm1218/weather_pratice | Demo: https://weather-pratice-qhsx.vercel.app/\n整合中央氣象署觀測資料，建立即時氣象地圖與歷史時間軸播放功能；前端以 Leaflet.js 與 Canvas 實作 IDW 空間插值、溫度/降雨熱力圖、風場粒子動畫與平滑時間補間；後端以 Flask 與 SQLite 快取 API 回應。\n\n自動化機器學習工作流 | Repo: https://github.com/jimm1218/workflow_california\n建立可重用 CRISP-DM 機器學習流程，自動完成 EDA、特徵工程、模型訓練、特徵組合測試、評估與模型輸出；使用 Linear Regression、Lasso、Ridge、Random Forest、Gradient Boosting 等模型比較，產出標準化圖表、CSV 指標報告與 joblib 模型檔。\n\nSVM Kernel Trick 互動教學專案 | Repo: https://github.com/jimm1218/svm-3dDEMO | Demo: https://svm-3ddemo-nqmra2ma3grxvyrby5ryid.streamlit.app/\n使用 Streamlit、Plotly、Scikit-learn 與 Manim 建立 SVM Kernel Trick 互動教學工具，支援資料集、Z 軸公式、kernel 與模型參數互動調整，並呈現 2D 決策邊界、3D 特徵空間與 support vectors。"
+    },
+    {
+      "heading": "學歷、證照與語言",
+      "level": 1,
+      "content": "逢甲大學 都市計畫學系空間資訊組 碩士，2013/09 - 2015/08\n中國文化大學 土地資源學系 學士，2009/09 - 2013/06\n\nMicrosoft Certified: Introduction to Python for Data Science\n普通小型車駕照、普通重型機車駕照\n\n中文：精通 | 英文：中等 | 日文：略懂 | 台語：中等"
+    },
+    {
+      "heading": "求職方向",
+      "level": 1,
+      "content": "資料分析師、BI 分析師、數據分析師、資料庫管理人員、資料科學家、AI 應用資料分析。偏好能結合 SQL、BI、資料產品、AI 應用與商業決策的職務，具備全職與遠端工作意願。"
+    }
+  ]
+}

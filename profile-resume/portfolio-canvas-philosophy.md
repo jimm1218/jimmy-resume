@@ -1,0 +1,11 @@
+# Structured Signal
+
+Structured Signal treats a professional life as an indexed field system: every role, project, and skill becomes a coordinate, a trace, or a quiet measurement mark. The visual language is not decorative technology; it is disciplined observation. Space is divided with precise archival grids, offset panels, sparse labels, and deliberate pauses, so the viewer feels that a complex career has been patiently cataloged by someone who understands both data and consequence.
+
+The movement favors a light analytical atmosphere: mineral white, soft graphite, muted teal, signal blue, and small accents of warm amber. Color is used as a classification device, not as spectacle. Each tone must feel painstakingly calibrated, the product of deep expertise, as if every shade was tested against the next until the whole system became inevitable. Nothing should feel casual; even a thin line must look chosen.
+
+Forms should suggest dashboards, field notes, database schemas, route maps, and research plates without literally imitating software UI. Repeated ticks, tiny plots, modular blocks, and measured diagonals create rhythm. Scale is used to reveal hierarchy: a large calm name, compact evidence clusters, and small clinical markers that reward close reading. The composition must look meticulously crafted, built through countless refinements rather than generated in a single pass.
+
+Text is essential but restrained. Words behave like labels pinned to a specimen: sharp, useful, and integrated into the structure. Paragraphs are compressed into claims, roles, outcomes, and tool signatures. The viewer should understand the person through relationships among evidence, not through long explanation. Master-level execution means the smallest caption, spacing interval, and alignment choice all contribute to trust.
+
+The final expression should feel like a professional portfolio discovered inside a data archive: exact, warm, and quietly ambitious. It should preserve human presence inside analytic form, making experience, projects, and technical range feel legible at a glance. The work must carry painstaking attention and top-tier craft throughout, as if prepared for a serious review table where both design taste and professional credibility matter.

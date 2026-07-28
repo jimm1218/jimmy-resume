@@ -1,0 +1,15 @@
+{
+  "name": "profile-resume",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prototype:resume": "node prototype/hr-resume/server.mjs",
+    "build:docx": "node scripts/generate-docx.mjs",
+    "build:designed": "node scripts/generate-designed-docx.mjs",
+    "build:polished": "node scripts/generate-polished-docx.mjs"
+  },
+  "dependencies": {
+    "@paperjsx/json-to-docx": "0.5.4",
+    "docx": "^9.7.1"
+  }
+}
