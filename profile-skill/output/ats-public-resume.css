@@ -1,0 +1,115 @@
+@page {
+  size: A4;
+  margin: 10mm 12mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #111827;
+  background: #ffffff;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", Arial, sans-serif;
+  font-size: 9.2pt;
+  line-height: 1.34;
+}
+
+a {
+  color: #0f4c81;
+  text-decoration: none;
+}
+
+.resume {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid #111827;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 21pt;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.role {
+  margin: 0 0 4px;
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+.contact {
+  margin: 0;
+  color: #374151;
+}
+
+section {
+  margin-top: 9px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #d1d5db;
+  color: #111827;
+  font-size: 11.5pt;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+h3 {
+  margin: 0 0 2px;
+  font-size: 10pt;
+  line-height: 1.35;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 2px;
+}
+
+.item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin-bottom: 7px;
+}
+
+.meta {
+  margin: 0 0 4px;
+  color: #4b5563;
+  font-size: 8.6pt;
+}
+
+strong {
+  font-weight: 700;
+}
+
+@media print {
+  body {
+    font-size: 9pt;
+  }
+
+  .resume {
+    max-width: none;
+    padding: 0;
+  }
+
+  a {
+    color: #111827;
+  }
+}
